@@ -6,7 +6,7 @@ This repository provides a boilerplate for API automation testing using JEST fra
 2. [Supertest](https://github.com/visionmedia/supertest) - Library for making HTTP requests and assertions.
 3. [Faker](https://github.com/Marak/faker.js) - Library for generating mock data.
 
-The application under test is [reqres.co.in](https://reqres.co.in).
+The application under test is OExpress.
 
 ## Covered Endpoints
 
@@ -41,7 +41,7 @@ Ensure the above commands output the installed versions of Node.js and npm, resp
 ### Installation
 
 ```bash
-git clone https://github.com/AnjarTiyo/boilerplate-jest.git
+git clone https://github.com/AnjarTiyo/oexpress-api.git
 cd boilerplate-jest
 ```
 
@@ -73,7 +73,9 @@ npm run test:report
 
 #### Test result example using jest-html-reporter
 
-![Test result example using jest-html-reporter](images/test-result-example.png)
+![Test result example using jest-html-reporter](images/Screen Shot 2023-09-18 at 18.10.37.png)
+
+or you can see after run ```npm run test:report``` there will be filed named jest_html_reporters.html. open on your browser to explore
 
 ## Enjoy
 
