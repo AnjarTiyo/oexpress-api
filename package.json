@@ -1,0 +1,22 @@
+{
+    "name": "oexpress-jest",
+    "description": "OExpress API Automation using Jest",
+    "author": "Anjar Tiyo",
+    "scripts": {
+        "test": "jest test/** --timeout=30000 --watch-all",
+        "test:report": "jest --reporters=default --reporters=jest-html-reporters",
+        "lint": "eslint ."
+    },
+    "jest": {
+        "testTimeout": 15000
+    },
+    "devDependencies": {
+        "@faker-js/faker": "^8.0.2",
+        "dotenv": "^16.3.1",
+        "eslint": "^8.49.0",
+        "eslint-plugin-jest": "^27.4.0",
+        "jest": "^29.5.0",
+        "jest-html-reporters": "^3.1.4",
+        "supertest": "^6.3.3"
+    }
+}

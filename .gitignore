@@ -1,0 +1,10 @@
+# Depedencies
+node_modules
+
+# Environment
+.env 
+.env*
+
+#  Reporter
+jest-html*
+*.html
