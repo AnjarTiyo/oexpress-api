@@ -73,7 +73,9 @@ npm run test:report
 
 #### Test result example using jest-html-reporter
 
-![Test result example using jest-html-reporter](images/Screen Shot 2023-09-18 at 18.10.37.png)
+![Test result example using jest-html-reporter](images/ss1.png)
+![Test result example using jest-html-reporter](images/ss2.png)
+![Test result example using jest-html-reporter](images/ss3.png)
 
 or you can see after run ```npm run test:report``` there will be filed named jest_html_reporters.html. open on your browser to explore
 
